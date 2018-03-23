@@ -17,12 +17,14 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(n){
+  let beatlesArray = []
   do {
     console.log('I love the Beatles!')
   }
   while (n>0){
     --n
   }
+  return beatlesArray
 }
 
 
