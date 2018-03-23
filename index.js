@@ -18,13 +18,11 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(n){
   let beatlesArray = []
-  function countdown(n)
   do {
     beatlesArray.push('I love the Beatles!')
+    n++
   }
-  while (n>0){
-    --n
-  }
+  while (n<15)
   return beatlesArray
 }
 
