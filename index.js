@@ -18,6 +18,7 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(n){
   let beatlesArray = []
+  function countdown(n)
   do {
     beatlesArray.push('I love the Beatles!')
   }
