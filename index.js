@@ -19,7 +19,7 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(n){
   let beatlesArray = []
   do {
-    console.log('I love the Beatles!')
+    beatlesArray.push('I love the Beatles!')
   }
   while (n>0){
     --n
